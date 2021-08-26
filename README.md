@@ -19,6 +19,9 @@ johnnny@gmail.com
 
 mary@gmail.com
 123456
+
+andrew@gmail.com
+123456
 ```
 
 ### Setup (frontend & backend)
