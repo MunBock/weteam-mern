@@ -19,7 +19,11 @@
 }
 
 .home-title {
-  font-size: 50px;
+  text-align: center;
+  font-size: 45px;
+  min-width: 600px;
+  max-width: 600px;
+  word-wrap: break-word;
   font-weight: 600;
   color: white;
   margin-bottom: 10px;
