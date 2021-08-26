@@ -56,3 +56,10 @@ npm run seeder
 ```
 npm run dev
 ```
+
+### Site preview
+![weteam_preview_1](https://user-images.githubusercontent.com/31787554/131009905-80b73666-ed01-49a3-aa7b-fb82c53d08c7.png)
+
+
+![weteam_preview_2](https://user-images.githubusercontent.com/31787554/131009918-712e3ed5-c24d-494f-8c64-776a462d2945.png)
+
