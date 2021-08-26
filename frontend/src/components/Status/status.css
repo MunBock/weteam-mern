@@ -1,0 +1,48 @@
+:root {
+  --not-started-color: #f71e32;
+  --in-progress-color: #1d39fe;
+  --in-review-color: #911dfe;
+  --completed-color: #33af0a;
+  --blocked-color: #8db3ae;
+  --cancelled-color: #f77f08;
+}
+
+.not-started-status,
+.in-progress-status,
+.in-review-status,
+.completed-status,
+.blocked-status,
+.cancelled-status {
+  position: relative;
+  border: 1px solid white;
+  width: 100px;
+  height: 28px;
+  border-radius: 12px;
+  color: white;
+  cursor: text;
+  font-weight: 400;
+}
+
+.not-started-status {
+  background: #f71e32;
+}
+
+.in-progress-status {
+  background: #1d39fe;
+}
+
+.in-review-status {
+  background: #911dfe;
+}
+
+.completed-status {
+  background: #33af0a;
+}
+
+.blocked-status {
+  background: #8db3ae;
+}
+
+.cancelled-status {
+  background: #f77f08;
+}

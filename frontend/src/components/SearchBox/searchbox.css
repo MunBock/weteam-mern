@@ -1,0 +1,13 @@
+.search {
+  padding: 2px;
+  border: 1px solid grey;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.search::placeholder {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: grey;
+}

@@ -1,0 +1,25 @@
+.option-group {
+  margin-top: 5px;
+}
+
+.option-group-items {
+  display: flex;
+}
+
+.option-group-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  width: 100px;
+  height: 35px;
+  padding: 5px;
+}
+
+.option-group-item:hover {
+  background: #f7f7f7;
+}
+
+.option-group-item.active {
+  font-weight: 700;
+}

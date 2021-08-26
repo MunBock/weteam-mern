@@ -1,0 +1,140 @@
+.board-container {
+  height: 92vh;
+  padding: 10px 30px 10px 30px;
+  overflow-x: auto;
+}
+
+.board-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.functions-container {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  width: 800px;
+}
+
+.add-member-icon,
+.filter-icon,
+.search-icon {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.add-member-button,
+.filter-button,
+.search-button {
+  padding: 6px;
+  background: white;
+  color: #3b3d3e;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 10px 10px 0;
+  cursor: pointer;
+}
+
+.filter-option {
+  width: 600px;
+  margin-bottom: 30px;
+  border: 1px solid #dddddd;
+}
+
+.all-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  background: none;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.all-button.active {
+  font-weight: 700;
+}
+
+.all-button:hover {
+  background: #f7f7f7;
+}
+
+.task-table {
+  width: 1300px;
+}
+
+.table-header {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.table-header-title {
+  padding-left: 5px;
+  text-align: left;
+}
+
+.task-content {
+  border-bottom: 1px solid #dddddd;
+}
+
+.modal-place {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.modal-container {
+  padding: 20px;
+  padding-bottom: 20px;
+  width: 500px;
+  height: 560px;
+  border: 1px solid #f7f7f7;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background: white;
+  border-radius: 10px;
+  overflow-y: auto;
+}
+
+.modal-header-container {
+  display: flex;
+  border-bottom: 1px solid grey;
+}
+
+.modal-title {
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+.modal-close-button {
+  display: flex;
+  margin: 5px 5px 0 auto;
+  cursor: pointer;
+}
+
+.create-task-icon {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.create-row-button {
+  height: 40px;
+  border: 2px solid grey;
+  border-style: dashed;
+  cursor: pointer;
+}
+
+@media screen and (max-height: 100vh) {
+  .board-container {
+    height: 100%;
+  }
+}

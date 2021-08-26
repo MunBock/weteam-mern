@@ -1,0 +1,79 @@
+.create-form {
+  margin-top: 20px;
+}
+
+select {
+  appearance: none;
+}
+
+.create-input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.create-label {
+  display: flex;
+  align-items: center;
+}
+
+.create-date-label {
+  display: flex;
+  align-items: center;
+}
+
+.create-name-input,
+.create-priority-input,
+.create-status-input,
+.create-assigned-input {
+  width: 320px;
+  height: 40px;
+  margin-left: auto;
+}
+
+.create-date-input {
+  width: 320px;
+  height: 40px;
+  margin-left: 75px;
+}
+
+.create-name-input:focus,
+.create-priority-input:focus,
+.create-status-input:focus,
+.create-assigned-input:focus {
+  outline: none;
+}
+
+.create-description-textarea {
+  padding: 2px;
+  width: 320px;
+  height: 55px;
+  min-height: 55px;
+  resize: none;
+  margin-left: auto;
+  overflow: hidden;
+}
+
+.create-description-textarea:focus {
+  outline: none;
+}
+
+.create-button {
+  display: flex;
+  margin-left: auto;
+  border: 1px solid white;
+  padding: 10px;
+  background: black;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 3px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.create-button:hover {
+  border: 1px solid black;
+  background: white;
+  color: black;
+}

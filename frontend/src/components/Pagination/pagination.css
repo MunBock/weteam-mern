@@ -1,0 +1,24 @@
+.pages-button-place {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 15px;
+}
+
+.page-button.active {
+  color: white;
+  background: black;
+}
+
+.page-button {
+  border: 1px solid black;
+  color: black;
+  background: none;
+  padding: 8px 13px 8px 13px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.page-button:hover {
+  opacity: 0.9;
+}

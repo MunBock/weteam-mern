@@ -1,0 +1,28 @@
+.username-form {
+  display: flex;
+}
+
+.username-input {
+  padding: 2px;
+  height: 35px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.username-input::placeholder {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: grey;
+}
+
+.add-member-submit-button {
+  margin-left: 5px;
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  background: green;
+  cursor: pointer;
+}

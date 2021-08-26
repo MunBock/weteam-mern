@@ -1,0 +1,29 @@
+:root {
+  --high-priority-color: #f71e32;
+  --medium-priority-color: #1d39fe;
+  --low-priority-color: #33af0a;
+}
+
+.high-priority,
+.medium-priority,
+.low-priority {
+  position: relative;
+  border: 1px solid white;
+  width: 75px;
+  height: 28px;
+  border-radius: 12px;
+  color: white;
+  font-weight: 400;
+}
+
+.high-priority {
+  background: var(--high-priority-color);
+}
+
+.medium-priority {
+  background: var(--medium-priority-color);
+}
+
+.low-priority {
+  background: var(--low-priority-color);
+}
