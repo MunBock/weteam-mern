@@ -1,7 +1,7 @@
 {
   "name": "weteam-backend",
   "version": "1.0.0",
-  "description": "hi",
+  "description": "",
   "main": "server.js",
   "type": "module",
   "scripts": {
